@@ -7,6 +7,7 @@ var request = require('request');
 var glob = require("glob");
 var path = require('path');
 var Base64 = require('js-base64').Base64;
+require('dotenv').config();
 
 var CLIENT_ID = process.env.CLIENT_ID;
 var CLIENT_SECRET = process.env.CLIENT_SECRET;
